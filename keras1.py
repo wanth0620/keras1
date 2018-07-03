@@ -11,8 +11,8 @@ Y = 0.5 * X + 2 + np.random.normal(0, 0.05, (200, ))
 
 # plot data
 
-plt.scatter(X, Y)
-plt.show()
+#plt.scatter(X, Y)
+#plt.show()
 
 X_train, Y_train = X[:160], Y[:160]     #training data
 X_test, Y_test = X[160:], Y[160:]       #testing data
@@ -41,6 +41,6 @@ print('Weights=', W, '\nbiases=', b)
 
 # plotting the prediction
 Y_pred = model.predict(X_test)
-plt.scatter(X_test, Y_test)
-plt.plot(X_test, Y_pred)
-plt.show()
+#plt.scatter(X_test, Y_test)
+#plt.plot(X_test, Y_pred)
+#plt.show()
