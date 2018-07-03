@@ -17,11 +17,10 @@ plt.show()
 X_train, Y_train = X[:160], Y[:160]     #training data
 X_test, Y_test = X[160:], Y[160:]       #testing data
 
+#build all layer of NN
+
 model = Sequential()
 model.add(Dence(output_dim = 1,input_dim = 1))
-model.add(Dence(output_dim))
 
-
-
-
+#Choose lose function and optimizing method
 
