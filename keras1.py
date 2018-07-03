@@ -20,7 +20,7 @@ X_test, Y_test = X[160:], Y[160:]       #testing data
 #build all layer of NN
 
 model = Sequential()
-model.add(Dence(output_dim = 1,input_dim = 1))
+model.add(Dense(output_dim = 1,input_dim = 1))
 
 #Choose lose function and optimizing method
 model.compile(loss='mse', optimizer='sgd')
